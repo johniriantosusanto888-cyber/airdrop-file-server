@@ -81,33 +81,33 @@
 <div class="container">
 
     <div class="card">
-        <span class="badge">✅ No Personal Data Collected</span>
+        <span class="badge">✅ No Personal Data Collected by the Developer</span>
         <p>
             <strong>Air Drop - Android File Server</strong> ("the App") is developed by
             <strong>John Irianto Susanto</strong>. This Privacy Policy explains how the App
             handles your data. We are committed to protecting your privacy.
         </p>
         <div class="highlight">
-            This app does <strong>not collect, store, or transmit any personal data</strong>
-            to external servers. All file transfers happen locally on your network only.
+            The Developer does <strong>not collect, store, or have access to any personal data</strong>.
+            All file transfers and audio conversions happen locally on your device.
         </div>
     </div>
 
     <div class="card">
-        <h2>1. Information We Do NOT Collect</h2>
-        <p>The App does not collect or transmit:</p>
+        <h2>1. Information The Developer Does NOT Collect</h2>
+        <p>The developer does not collect or have access to:</p>
         <ul>
             <li>Personal identification information (name, email, phone number)</li>
             <li>Location data</li>
-            <li>Device identifiers</li>
             <li>Contacts or calendar data</li>
             <li>Browsing history</li>
-            <li>Files transferred through the app</li>
+            <li>The actual contents of files transferred or converted</li>
         </ul>
+        <p><strong>Note on Device Identifiers:</strong> While the Developer does not use them, third-party services (see Section 4) may collect device identifiers and usage data to serve ads and track app usage.</p>
     </div>
 
     <div class="card">
-        <h2>2. How the App Works</h2>
+        <h2>2. How the File Server Works</h2>
         <p>
             The App creates a local Wi-Fi web server on your Android device. Files are
             transferred directly between your device and other devices on the <strong>same
@@ -120,21 +120,18 @@
     </div>
 
     <div class="card">
-        <h2>3. Storage Permission</h2>
+        <h2>3. Audio Conversion</h2>
         <p>
-            The App requests storage permission solely to allow you to upload and download
-            files between devices on your local network. Files are saved to your device's
-            Download folder. We do not access, read, or transmit your files to any
-            third party.
+            The App includes an Audio Converter (MP3 and OGG). This feature uses open-source libraries (LAME and AndroidX Media3) to convert files.
+            <strong>All conversion happens 100% on your device.</strong> The files you convert are never uploaded or transmitted to the developer or any external server.
         </p>
     </div>
 
     <div class="card">
-        <h2>4. Advertising (Google AdMob)</h2>
+        <h2>4. Advertising & Analytics</h2>
         <p>
-            The App displays banner ads provided by <strong>Google AdMob</strong>.
-            Google may collect certain data to serve relevant ads in accordance with
-            their own privacy policy. Please refer to Google's Privacy Policy for details:
+            The App uses <strong>Google AdMob</strong> for advertising and <strong>Firebase Analytics</strong> for aggregated, anonymous usage statistics.
+            These services are provided by Google and may collect Device IDs, Advertising IDs, IP addresses, and app usage data in accordance with their own privacy policy.
         </p>
         <p>
             <a href="https://policies.google.com/privacy" target="_blank">
@@ -142,8 +139,8 @@
             </a>
         </p>
         <p>
-            Ad data collection is managed entirely by Google and is subject to
-            Google's terms. We do not have access to any ad-related personal data.
+            This data collection is managed entirely by Google and is subject to
+            Google's terms. The developer does not have access to any ad-related personal data.
         </p>
     </div>
 
@@ -158,16 +155,20 @@
     </div>
 
     <div class="card">
-        <h2>6. Third-Party Services</h2>
-        <p>The App uses the following third-party services:</p>
+        <h2>6. Third-Party Services & Open Source Licenses</h2>
+        <p>The App uses the following third-party services and libraries:</p>
         <ul>
             <li>
                 <strong>Google AdMob</strong> — for displaying advertisements.
-                <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>
             </li>
             <li>
-                <strong>ZXing / BarcodeScanner</strong> — for generating QR codes locally.
-                No data is sent externally.
+                <strong>Firebase Analytics</strong> — for anonymous usage analytics.
+            </li>
+            <li>
+                <strong>LAME</strong> — Licensed under LGPL-2.1. Used for MP3 encoding.
+            </li>
+            <li>
+                <strong>AndroidX Media3</strong> — Licensed under Apache 2.0. Used for OGG/Opus conversion.
             </li>
         </ul>
     </div>
